@@ -1,5 +1,6 @@
 # flappyBird4School
-Small game for a school project
+Small game for a school project  
+It's a personal version of Flappy Bird writte in processing. The bird is controlled by a Joystick connected to the Arduino which send X coordinates to the serial port. Processing takes those X's value and moves the character.
 
 1. Plug in Arduino with a joystick or anything else wich produces an analog value and connect it to A2 on Arduino
 2. Run JoystickController.ino on Arduino Ide
